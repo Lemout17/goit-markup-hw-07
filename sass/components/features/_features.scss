@@ -25,13 +25,12 @@
   }
 
   & .title {
+    margin: 30px 0 0 0;
+
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    @extend %text-shared;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: $title-color;
-    margin: 30px 0 0 0;
   }
 
   & .text {
