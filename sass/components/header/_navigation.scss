@@ -5,10 +5,10 @@
 .nav-list {
   display: flex;
 
-  & .item:not(:last-child) {
+  .item:not(:last-child) {
     margin-right: 50px;
   }
-  & .nav-link.current {
+  .nav-link.current {
     color: $accent-color;
   }
 }

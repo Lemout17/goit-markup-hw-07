@@ -9,7 +9,7 @@
 .footer {
   display: flex;
 
-  & .location {
+  .location {
     display: inline-block;
     font-style: normal;
     font-weight: normal;
@@ -20,7 +20,7 @@
     margin-top: 20px;
   }
 
-  & .contact {
+  .contact {
     display: inline-block;
     font-style: normal;
     font-weight: normal;

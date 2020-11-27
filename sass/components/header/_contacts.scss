@@ -11,19 +11,21 @@
   padding-top: 32px;
   padding-bottom: 32px;
 
-  color: $text-color;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: $text-color;
   @extend %transition;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
-.address-link:hover,
-.address-link:focus {
-  color: $accent-color;
-}
+
 .adress-icon {
   margin-right: 10px;
   fill: currentColor;

@@ -6,11 +6,29 @@
 .features-list {
   display: flex;
 
-  & .item {
+  .title {
+    margin: 30px 0 0 0;
+
+    font-weight: 700;
+    @extend %text-shared;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $text-color;
+    margin: 10px 0 0 0;
+  }
+
+  .item {
     width: 270px;
   }
 
-  & .item:before {
+  .item:before {
     display: block;
     height: 120px;
     content: '';
@@ -20,25 +38,7 @@
     background-position: center;
   }
 
-  & .item:not(:last-child) {
+  .item:not(:last-child) {
     margin-right: 30px;
-  }
-
-  & .title {
-    margin: 30px 0 0 0;
-
-    font-weight: 700;
-    @extend %text-shared;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  }
-
-  & .text {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: $text-color;
-    margin: 10px 0 0 0;
   }
 }

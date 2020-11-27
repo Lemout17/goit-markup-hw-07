@@ -3,10 +3,10 @@
   align-items: center;
   justify-content: center;
 
-  & .list-item:not(:last-child) {
+  .list-item:not(:last-child) {
     margin-right: 8px;
   }
-  & .list-item {
+  .list-item {
     margin: 0;
   }
 }
